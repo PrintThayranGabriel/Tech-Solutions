@@ -193,6 +193,7 @@ header .button a{
     border-radius: 20px;
     padding: 20px;
     text-align: center;
+    margin: 50px;
 }
 
 .cards .card2{
@@ -200,7 +201,7 @@ header .button a{
     border-radius: 20px;
     padding: 20px;
     text-align: center;
-    margin: 0px 50px;
+    margin: 50px;
 }
 
 .cards .card3{
@@ -208,6 +209,7 @@ header .button a{
     border-radius: 20px;
     padding: 20px;
     text-align: center;
+    margin: 50px;
 }
 
 .cards h1{
@@ -303,12 +305,27 @@ header .button a{
 }
 
 form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
     border: 2px solid #06D6A0;
     padding: 50px;
     border-radius: 20px;
     box-shadow: -4px 4px 25px rgba(6, 214, 160, 0.25);
     width: 300px;
+    
 }
+
+form label{
+    margin-top: 10px;
+}
+
+form input[type=text], input[type=mensage]{
+    border-radius: 5px;
+    border: 2px solid #06D6A0;
+}
+
 
 form input[type="submit"]{
     background-color: #12C39A;

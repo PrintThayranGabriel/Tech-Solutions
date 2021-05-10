@@ -1,0 +1,98 @@
+@media (max-width: 800px){
+    
+    .circle{
+        display: none;
+    }
+
+    .circle2{
+        display: none;
+    }
+
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .nav{
+        margin-right: 0px;
+    }
+
+    header .nav a{
+        color: #000;
+    }
+    
+    .button{
+        margin-top: 1.5em;
+    }
+
+    .banner{
+        background-color: #ccf3ec;
+        padding: 20px;
+    }
+
+    .banner img{
+        display: none;
+    }
+
+    .hero1, .hero2, .hero3{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .hero-image{
+        width: 15em;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+    }
+    .card1, .card2, .card3{
+       margin-bottom: 20px;
+    }
+
+    .prices{
+        display: flex;
+        flex-direction: column;
+    }
+    .price1, .price2, .price3{
+        margin: 20px 40px;
+    }
+
+    .formulario{
+        margin: 20px;
+    }
+
+    .formulario img{
+        display: none;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    form label{
+        margin-top: 15px;
+    }
+
+    form input[type=text], input[type=mensage], input[type=submit]{
+        max-width: 200px;
+    
+    }
+
+    .contents{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contents h2{
+        margin-top: 20px;
+    }
+
+    .socialmedias img{
+        width: 20px;
+        height: 20px;
+    }
+}
