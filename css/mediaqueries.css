@@ -1,4 +1,4 @@
-@media (max-width: 800px){
+@media (max-width: 900px){
     
     .circle{
         display: none;
@@ -37,7 +37,23 @@
     .hero1, .hero2, .hero3{
         display: flex;
         flex-direction: column-reverse;
+        padding: 20px;
     }
+
+    
+    .hero1 h1{
+        font-size: 1em;
+    }
+
+    .hero2 h1{
+        font-size: 1em;
+    }
+
+    .hero3 h1{
+        font-size: 1em;
+    }
+    
+
     .hero-image{
         width: 15em;
     }
@@ -94,5 +110,27 @@
     .socialmedias img{
         width: 20px;
         height: 20px;
+    }
+    .banner .text h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .banner .text p{
+        text-align: center;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -50;
+    }
+    .banner .text #botao1{
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1000px){
+    .banner .text{
+        margin-left: 40px;
     }
 }
